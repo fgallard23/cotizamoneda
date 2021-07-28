@@ -1,0 +1,18 @@
+<h1 id="tableLabel">Cotización del Día</h1>
+
+<p *ngIf="!cotizacion"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="cotizacion">
+  <thead>
+    <tr>
+      <th>Dolar</th>
+      <th>Real</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let moneda of cotizacion">
+      <td>{{ moneda }}</td>
+      <td>{{ convertirReal(moneda) }}</td>
+    </tr>
+  </tbody>
+</table>

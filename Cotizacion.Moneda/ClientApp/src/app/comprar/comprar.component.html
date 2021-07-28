@@ -1,0 +1,30 @@
+<h1>Ingresar Compra</h1>
+<p *ngIf='datasaved' ngClass='messageColor'>
+  Record save successfully
+</p>
+
+<form [formGroup]="monedaForm" (ngSubmit)="onFormSubmit()">
+  <table>
+    <tr>
+      <td>Id:</td>
+      <td> <input formControlName="idUsuario"> </td>
+    </tr>
+    <tr>
+      <td>Tipo Moneda:</td>
+      <td>
+        <select formControlName="tipoMoneda">
+          <option value="">Seleccionar</option>
+          <option *ngFor="let m of tipoMonedas" id="{{ m.id }}}">{{ m.name }}</option>
+        </select>
+    </tr>
+    <tr>
+      <td>Monto Comprar (pesos):</td>
+      <td> <input formControlName="montoComprar" type="number" min="0"> </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <button [disabled]="monedaForm.invalid">Efectivizar Compra</button>
+      </td>
+    </tr>
+  </table>
+</form>

@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=be58bae7_002D2ec0_002D45a9_002Dbb55_002Dc689fbf79819/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Get_Cotizar_Moneda_Dolar_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F0EEB46E-F67D-4A4F-A403-244B237F971C::net5.0::Cotizacion.Moneda.Test.MonedaControllerTest.Get_Cotizar_Moneda_Dolar_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F0EEB46E-F67D-4A4F-A403-244B237F971C::net5.0::Cotizacion.Moneda.Test.MonedaControllerTest.Post_Cotizar_Moneda_Dolar_Assertion_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F0EEB46E-F67D-4A4F-A403-244B237F971C::net5.0::Cotizacion.Moneda.Test.MonedaControllerTest.Get_Cotizar_Moneda_Dolar_Assertion_Test&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
